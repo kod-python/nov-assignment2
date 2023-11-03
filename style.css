@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+/* all divs */
+#top .up{
+    
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color:hsl(244, 38%, 16%);
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+  
+    
+}
+
+
+/* all divs ends here */
+
+/* header1 starts here */
+#top .ins{
+    color: hsl(277, 49%, 50%);
+}
+#top h1{
+    font-size: 2rem;
+    color:  hsl(0, 0%, 100%);
+}
+
+/* header1 ends here */
+
+/* first page starts here */
+#top .firstp{
+    font-size: 1.2rem;
+    color: hsla(0, 0%, 100%, 0.75)
+
+}
+
+/* first page ends here */
+
+
+/* number starts here */
+
+#top .number h2{
+    color:  hsl(0, 0%, 100%);
+    font-size: 1.7rem;
+}
+
+#top .number p{
+    color: hsla(0, 0%, 100%, 0.75);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+}
+
+
+#top .number{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* number ends here */
+
+#top .down{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+
+/* image */
+
+#top .imi {
+    width: 510px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 0.5rem;
+    
+}
+/* image ends here */
+
+
+/* copy right starts here */
+#top .end{
+    color: whitesmoke;
+    margin-top: 30px;
+    font-style: oblique;
+}
+
+#top .end span{
+    color: crimson;
+}
+/* copy right ends here */
